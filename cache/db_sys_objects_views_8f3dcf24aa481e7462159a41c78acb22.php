@@ -1,0 +1,145 @@
+<?php $mixedData=array (
+  'profiles' => 
+  array (
+    'id' => '1',
+    'name' => 'profiles',
+    'table_track' => 'sys_profile_views_track',
+    'period' => '86400',
+    'trigger_table' => 'Profiles',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'ads' => 
+  array (
+    'id' => '2',
+    'name' => 'ads',
+    'table_track' => 'bx_ads_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_ads_main',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_articles' => 
+  array (
+    'id' => '3',
+    'name' => 'bx_articles',
+    'table_track' => 'bx_arl_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_arl_entries',
+    'trigger_field_id' => 'id',
+    'trigger_field_views' => 'view_count',
+    'is_on' => '1',
+  ),
+  'bx_blogs' => 
+  array (
+    'id' => '4',
+    'name' => 'bx_blogs',
+    'table_track' => 'bx_blogs_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_blogs_posts',
+    'trigger_field_id' => 'PostID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_events' => 
+  array (
+    'id' => '5',
+    'name' => 'bx_events',
+    'table_track' => 'bx_events_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_events_main',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_groups' => 
+  array (
+    'id' => '6',
+    'name' => 'bx_groups',
+    'table_track' => 'bx_groups_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_groups_main',
+    'trigger_field_id' => 'id',
+    'trigger_field_views' => 'views',
+    'is_on' => '1',
+  ),
+  'bx_news' => 
+  array (
+    'id' => '8',
+    'name' => 'bx_news',
+    'table_track' => 'bx_news_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_news_entries',
+    'trigger_field_id' => 'id',
+    'trigger_field_views' => 'view_count',
+    'is_on' => '1',
+  ),
+  'bx_sounds' => 
+  array (
+    'id' => '9',
+    'name' => 'bx_sounds',
+    'table_track' => 'bx_sounds_views_track',
+    'period' => '86400',
+    'trigger_table' => 'RayMp3Files',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Listens',
+    'is_on' => '1',
+  ),
+  'bx_videos' => 
+  array (
+    'id' => '10',
+    'name' => 'bx_videos',
+    'table_track' => 'bx_videos_views_track',
+    'period' => '86400',
+    'trigger_table' => 'RayVideoFiles',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_files' => 
+  array (
+    'id' => '11',
+    'name' => 'bx_files',
+    'table_track' => 'bx_files_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_files_main',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_store' => 
+  array (
+    'id' => '12',
+    'name' => 'bx_store',
+    'table_track' => 'bx_store_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_store_products',
+    'trigger_field_id' => 'id',
+    'trigger_field_views' => 'views',
+    'is_on' => '1',
+  ),
+  'bx_photos' => 
+  array (
+    'id' => '13',
+    'name' => 'bx_photos',
+    'table_track' => 'bx_photos_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_photos_main',
+    'trigger_field_id' => 'ID',
+    'trigger_field_views' => 'Views',
+    'is_on' => '1',
+  ),
+  'bx_sites' => 
+  array (
+    'id' => '14',
+    'name' => 'bx_sites',
+    'table_track' => 'bx_sites_views_track',
+    'period' => '86400',
+    'trigger_table' => 'bx_sites_main',
+    'trigger_field_id' => 'id',
+    'trigger_field_views' => 'views',
+    'is_on' => '1',
+  ),
+); ?>
